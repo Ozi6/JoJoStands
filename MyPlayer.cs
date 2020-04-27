@@ -50,6 +50,7 @@ namespace JoJoStands
         public int revertTimer = 0;     //for all requiems that can change forms back to previous forms
         public double standDamageBoosts = 1;
         public float standRangeBoosts = 0f;
+        public float standCritChangeBoosts = 0f;
         public int standSpeedBoosts = 0;
 
         public bool TuskAct1Pet = false;
@@ -101,6 +102,7 @@ namespace JoJoStands
             standDamageBoosts = 1;
             standRangeBoosts = 0f;
             standSpeedBoosts = 0;
+            standCritChangeBoosts = 5;
         }
 
         public override void OnEnterWorld(Player player)
